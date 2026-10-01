@@ -2,28 +2,8 @@
 
 This repository contains 3 production-style industrial computer vision systems built using YOLO, OpenCV, and PyTorch. The projects focus on real-time perception, tracking, detection, and safety intelligence for autonomous systems, crowd monitoring, and industrial hazard detection.
 
---------------------------------------------------
 
-## Dev/Creator
 
-## Dev/Creator: tubakhxn
-
-GitHub: https://github.com/tubakhxn
-
---------------------------------------------------
-
-## 1. ADAS Perception Pipeline (Autonomous Driving System)
-
-Industrial autonomous driving perception system inspired by real-world ADAS and self-driving stacks.
-
-- Vehicle and pedestrian detection
-- Lane detection and road understanding
-- Depth estimation
-- Multi-object tracking
-- Collision risk analysis
-- Bird’s-eye-view visualization
-
-Use case: Autonomous driving research and simulation systems
 
 --------------------------------------------------
 
