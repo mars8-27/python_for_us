@@ -1,5 +1,36 @@
 # 🔥 Industrial Fire & Smoke Detection
 
+> Real-time computer vision pipeline for fire, smoke, and scene-context detection from video.
+
+## 🎯 Project at a glance
+
+```text
+Video → Preprocess → Fire + Smoke + YOLO → Signal Fusion → Risk → HUD → Output
+```
+
+This project combines classical computer vision with YOLOv8n deep-learning inference to create a real-time monitoring pipeline.
+
+## 🏗️ Architecture
+
+See [ARCHITECTURE.md](./ARCHITECTURE.md) for the full architecture diagram, technology flowchart, file responsibility map, 60-second interview explanation, and revision checklist.
+
+### High-level flow
+
+```mermaid
+flowchart LR
+    A[Video Input] --> B[Preprocessing]
+    B --> C[Fire Detection]
+    B --> D[Smoke Detection]
+    B --> E[YOLOv8n]
+    C --> F[Signal Fusion]
+    D --> F
+    E --> F
+    F --> G[Risk Classification]
+    G --> H[HUD / Video Output]
+```
+
+
+
 > Real-time computer vision for detecting fire, smoke, and scene context from video.
 
 ## Overview
